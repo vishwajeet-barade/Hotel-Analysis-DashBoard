@@ -11,20 +11,20 @@ This Power BI dashboard provides key insights into hotel performance, including 
 ![image](https://github.com/user-attachments/assets/ee88b065-4fcf-48ae-9560-d6cff1d10abd)
 
 
-Features
+### Features ####
 
-Revenue Analysis: Total revenue generated and revenue by city.
+1]Revenue Analysis: Total revenue generated and revenue by city.
 
-Booking Insights: Daily bookings, total bookings by platform, and booking status by month.
+2]Booking Insights: Daily bookings, total bookings by platform, and booking status by month.
 
-Occupancy Rates: Occupancy percentage by city, room class, and day type.
+3]Occupancy Rates: Occupancy percentage by city, room class, and day type.
 
-Trend Analysis: Revenue timeline for performance tracking.
+4]Trend Analysis: Revenue timeline for performance tracking.
 
-Filtering Options: Day type, category, room class, city, and month.
+5]Filtering Options: Day type, category, room class, city, and month.
 
 
-Data Model
+### Data Model ###
 
 Fact Tables: fact_booking, fact_aggregated_booking
 
@@ -33,15 +33,16 @@ Dimension Tables: dim_hotels, dim_rooms, dim_date, custom_calendar
 Relationships: Fact tables are linked to dimensions using keys like property_id, room_id, and date.
 
 
-Technologies Used
+### Technologies Used ###
 
 Power BI for data visualization
+
 Data Sources: Hotel booking datasets
 
 Data Modeling: Star schema with fact and dimension tables
 
 
-How to Use
+## How to Use ##
 
 Open the Power BI file.
 
